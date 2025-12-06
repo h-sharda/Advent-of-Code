@@ -82,7 +82,7 @@ int main() {
     Solution obj;
     obj.merge(freshRanges);
     cout << "Part 1: " << obj.part1(freshRanges, ids) << endl;
-    cout << "Part 1: " << obj.part2(freshRanges) << endl;
+    cout << "Part 2: " << obj.part2(freshRanges) << endl;
 
     return 0;
 }
