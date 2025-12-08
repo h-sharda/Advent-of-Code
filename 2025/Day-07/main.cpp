@@ -73,15 +73,15 @@ class Solution {
 };
 
 int main() {
-    vector<string> rows;
+    vector<string> manifold;
 
     string line;
     while (getline(cin, line))
-        rows.push_back(line);
+        manifold.push_back(line);
 
     Solution obj;
-    cout << "Part 1: " << obj.part1(rows) << endl;
-    cout << "Part 2: " << obj.part2(rows) << endl;
+    cout << "Part 1: " << obj.part1(manifold) << endl;
+    cout << "Part 2: " << obj.part2(manifold) << endl;
 
     return 0;
 }
