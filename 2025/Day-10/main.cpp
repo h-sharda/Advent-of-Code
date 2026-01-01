@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include <utility>
 #include <vector>
 
 using namespace std;
@@ -81,7 +80,7 @@ class Machine {
 
 class Solution {
   public:
-    int part1(vector<Machine> &machines) {
+    long long part1(vector<Machine> &machines) {
         long long ans = 0;
 
         for (auto &m : machines)
