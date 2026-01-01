@@ -1,4 +1,4 @@
-### URL: https://adventofcode.com/2025/day/7
+### URL: https://adventofcode.com/2025/day/8
 
 ### Content
 
